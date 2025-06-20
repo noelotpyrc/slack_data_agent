@@ -1,0 +1,13 @@
+slack_bolt
+python-dotenv
+snowflake-connector-python
+agno
+matplotlib
+seaborn
+pandas
+requests
+numpy
+fastapi
+uvicorn
+
+
