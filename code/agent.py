@@ -24,7 +24,7 @@ memory = Memory(
 )
 
 def get_semantic_model():
-    path = os.path.join(os.path.dirname(__file__), "composite.yaml")
+    path = os.path.join(os.path.dirname(__file__), "semantic_model.yaml")
     with open(path, "r") as f:
         return f.read()
 

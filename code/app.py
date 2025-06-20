@@ -14,10 +14,10 @@ logger = logging.getLogger(__name__)
 app = App(token=os.environ.get("SLACK_BOT_TOKEN"))
 
 # For testing purposes
-TEST_MODE = True  # Set to False in production
-PLACEHOLDER_IMAGE = os.path.join(os.path.dirname(__file__), "placeholder.png")
-logger.debug(f"Placeholder image path: {PLACEHOLDER_IMAGE}")
-logger.debug(f"Placeholder image exists: {os.path.exists(PLACEHOLDER_IMAGE)}")
+#TEST_MODE = True  # Set to False in production
+#PLACEHOLDER_IMAGE = os.path.join(os.path.dirname(__file__), "placeholder.png")
+#logger.debug(f"Placeholder image path: {PLACEHOLDER_IMAGE}")
+#logger.debug(f"Placeholder image exists: {os.path.exists(PLACEHOLDER_IMAGE)}")
 
 CHART_PATH = os.path.join(os.path.dirname(__file__), "chart.png")
 CHART_SERVICE_URL = "http://localhost:8000/generate_chart"
